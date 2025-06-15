@@ -1,5 +1,4 @@
 :root {
-<<<<<<< HEAD
     --primary-color: #2a9d8f;
     --primary-hover: #268a7e;
     --success-color: #28a745;
@@ -10,17 +9,6 @@
     --border-color: #e0e0e0;
     --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     --card-hover-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
-=======
-    --primary-color: #007bff;
-    --primary-hover: #0056b3;
-    --success-color: #28a745;
-    --danger-color: #dc3545;
-    --light-gray: #f4f7f6;
-    --text-color: #3d405b;
-    --border-color: #e0e0e0;
-    --card-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    --card-hover-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
->>>>>>> e65e3d2b6fb2868e5daf3c31b250f86caad3f226
     --border-radius: 8px;
 }
 
@@ -165,11 +153,7 @@ h2 {
 .btn-success:hover { background-color: #218838; }
 
 .btn-danger { background-color: var(--danger-color); }
-<<<<<<< HEAD
 .btn-danger:hover { background-color: #d35431; }
-=======
-.btn-danger:hover { background-color: #c82333; }
->>>>>>> e65e3d2b6fb2868e5daf3c31b250f86caad3f226
 
 .data-table {
     width: 100%;
@@ -207,13 +191,8 @@ h2 {
     vertical-align: middle;
 }
 
-<<<<<<< HEAD
 .form-container {
     max-width: 480px;
-=======
-.login-form {
-    max-width: 450px;
->>>>>>> e65e3d2b6fb2868e5daf3c31b250f86caad3f226
     margin: 50px auto;
     padding: 40px;
     background: #fff;
@@ -236,7 +215,6 @@ h2 {
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius);
     box-sizing: border-box;
-<<<<<<< HEAD
     transition: all 0.3s ease;
 }
 
@@ -268,15 +246,6 @@ h2 {
 }
 .form-container .form-footer-link a:hover {
     text-decoration: underline;
-=======
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
-}
-
-.login-form input[type="text"]:focus, .login-form input[type="password"]:focus {
-    outline: none;
-    border-color: var(--primary-color);
-    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
->>>>>>> e65e3d2b6fb2868e5daf3c31b250f86caad3f226
 }
 
 .alert {
@@ -285,11 +254,6 @@ h2 {
     border: 1px solid transparent;
     border-radius: var(--border-radius);
     position: relative;
-<<<<<<< HEAD
-=======
-    opacity: 1;
-    transition: opacity 0.5s;
->>>>>>> e65e3d2b6fb2868e5daf3c31b250f86caad3f226
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
@@ -297,7 +261,6 @@ h2 {
     color: #0f5132;
     background-color: #d1e7dd;
     border-color: #badbcc;
-<<<<<<< HEAD
 }
 
 .alert-danger {
@@ -309,8 +272,6 @@ h2 {
 .alert ul {
     margin: 0;
     padding-left: 20px;
-=======
->>>>>>> e65e3d2b6fb2868e5daf3c31b250f86caad3f226
 }
 
 .close-btn {
